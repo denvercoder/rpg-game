@@ -1,0 +1,36 @@
+{
+  "name": "rpggame",
+  "version": "1.0.0",
+  "description": "Simple RPG Game in Phaser 3",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denvercoder/rpg-game.git"
+  },
+  "author": {
+    "name": "Denver Coder",
+    "email": "tim@denvercoder.com",
+    "url": "https://denvercoder.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/denvercoder/rpg-game/issues"
+  },
+  "homepage": "https://github.com/denvercoder/rpg-game#readme",
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/preset-env": "^7.3.1",
+    "babel-loader": "^8.0.5",
+    "file-loader": "^3.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.29.4",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "build": "rm -rf dist && webpack --mode production"
+  },
+  "dependencies": {
+    "phaser": "^3.16.2"
+  }
+}
