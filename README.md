@@ -1,4 +1,4 @@
-# Phasers On Stun
+# RPG GAME
 
 ## Install
 
